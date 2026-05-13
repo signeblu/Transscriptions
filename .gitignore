@@ -1,0 +1,7 @@
+node_modules/
+test/cache/
+.crush/
+.DS_Store
+Bouvin/
+.env
+*.env
