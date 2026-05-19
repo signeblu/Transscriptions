@@ -29,6 +29,10 @@ LITELLM_API_KEY=... node simpletranscribe.js <folder> [options]
 For each supported file in `<folder>` (top-level only), a transcription file
 is written next to it with the same basename — e.g. `clip.mp4` → `clip.txt`.
 
+1. First set up the key and run it in the terminal: export LITELLM_API_KEY="..." (for MacOS)
+2. Then run: node simpletransscribe2.js ./test_audio --language en --latex --overwrite
+   - "./test_audio" is the name of the folder that the audio file is located in
+
 ### Options
 
 | Flag | Description |
